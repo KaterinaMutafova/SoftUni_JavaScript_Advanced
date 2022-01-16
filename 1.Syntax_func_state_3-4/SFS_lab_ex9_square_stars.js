@@ -27,3 +27,14 @@ function stars(input) {
 
 }
 stars(7);
+
+
+// Easier WAY !!! 
+function easyStars(count=5) {
+    
+    for (i=0; i < count; i++) {
+        console.log("* ".repeat(count));
+    }
+}
+easyStars(7);
+
