@@ -7,14 +7,14 @@ function upperCase(input) {
     
     text = text.match(regEx);
    
-    let strRow = ''
+    let strRow = '';
 
     for (el = 0; el !=  text.length; el++) {
         curWord = text[el];
         if (el < text.length - 1) {
-            strRow += curWord + ', '
+            strRow += curWord + ', ';
         } else {
-            strRow += curWord + ' '
+            strRow += curWord + ' ';
         }
         
     }
