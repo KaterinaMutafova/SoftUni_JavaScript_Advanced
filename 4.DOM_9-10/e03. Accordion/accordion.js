@@ -1,17 +1,17 @@
+
+
 function toggle() {
-   
-    let button = document.querySelector('.button');
-    let text = document.querySelector('#extra');
 
-    if (button.testContent === "More") {
-        button.textContent = "Less";
-        text.style.display = 'block';
-    } else { 
-        button.textContent = "More";
-        text.style.display = 'none';
+    const extraElement = document.getElementById('extra');
+    const button = document.getElementsByClassName('button')[0];
+    let buttonText = button.textContent;
+    buttonText = buttonText.toLocaleLowerCase()
 
+    if(buttonText === 'more'){
+        button.textContent = 'Less';
+        extraElement.style.display = 'block';
+    } else {
+        button.textContent = 'More';
+        extraElement.style.display = 'none';
     }
-
-
-
 }

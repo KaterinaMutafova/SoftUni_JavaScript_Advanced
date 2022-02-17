@@ -11,4 +11,7 @@ function sumTable() {
     let resultEl = document.getElementById('sum');
     resultEl.textContent = sum;
 
+    
+
 }
+

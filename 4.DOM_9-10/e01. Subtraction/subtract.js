@@ -11,7 +11,6 @@ function subtract() {
 
     resultElement.textContent = sum;
 
-    
-
 
 }
+
